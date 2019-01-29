@@ -1,0 +1,61 @@
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .resume-item {
+    .resume-content {}
+    .resume-date {
+      min-width: none;
+    }
+  }
+  .small-italic{
+    font-size: 1.3rem;
+  }
+}
+
+section#portfolio{
+  li.list-inline-item{
+    margin-top: 0.5rem;
+  }
+  img{
+    max-width: 11rem;
+    &.fmp{
+      background-color: #355967;
+      padding: 0.5rem;
+      max-width: 4rem;
+    }
+    &.pursuit{
+      background-color: #0e2537;
+      padding: 0.5rem;
+    }
+    &.btl{
+      background-color: #222;
+      padding: 0.5rem;
+    }
+  }
+  .stringer-logo{
+    display: block;
+    text-indent: -9999px;
+    width: 11rem;
+    height: 2rem;
+    background: url(https://www.stringerlaw.ca/wp-content/themes/stringer/assets/images/logo.svg);
+    background-size: 11rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
