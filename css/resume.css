@@ -196,6 +196,10 @@ section#portfolio .stringer-logo {
   background-size: 11rem;
 }
 
+#portfolio li.list-inline-item.city-academy {
+  background-color: #84b1b5;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
