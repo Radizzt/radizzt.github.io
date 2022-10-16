@@ -12,5 +12,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
+  repo:  Radizzt/radizzt.github.io
+  target_branch: gh-pages
   on:
-    branch: master
+    branch: main
