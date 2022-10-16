@@ -1,0 +1,16 @@
+sudo:          false
+language:      node_js
+node_js:
+  - "17"
+script:
+  - npm --version
+cache:
+  directories:
+    - node_modules
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
