@@ -2,10 +2,8 @@ sudo:          false
 language:      node_js
 node_js:
   - "17"
-install:       npm install
 script:
-  - npm test
-  - gulp
+  - npm --version
 cache:
   directories:
     - node_modules
